@@ -1,0 +1,16 @@
+[{
+  "loginName": "duzl",
+  "password": "admin123",
+  "verifyCode": "adf",
+  "value": "/index"
+}, {
+  "loginName": "duzl",
+  "password": "admin",
+  "verifyCode": "adf",
+  "value": "账号或密码错误"
+}, {
+  "loginName": "duzl",
+  "password": "",
+  "verifyCode": "adf",
+  "value": "参数password不能为空"
+}]
