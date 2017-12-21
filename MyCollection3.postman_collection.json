@@ -1,0 +1,52 @@
+{
+	"id": "3ccd940c-0635-6199-b51e-0712c7462b08",
+	"name": "MyCollection1",
+	"description": "##六、借助Postman完成HTTP请求接口测试\r\n\r\n示例API：https://developers.douban.com/wiki/?title=book_v2#get_book\r\n\r\n![豆瓣搜索图书API](http://img.blog.csdn.net/20171127162236177?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZHV6aWxvbmdsb3Zl/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)",
+	"order": [
+		"74acc646-f8f1-22a4-fcc2-c5cae43de07b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 0,
+	"owner": "3159455",
+	"public": false,
+	"requests": [
+		{
+			"id": "74acc646-f8f1-22a4-fcc2-c5cae43de07b",
+			"headers": "",
+			"headerData": [],
+			"url": "https://{{domain1}}/v2/book/search?q=笑傲江湖&count=1",
+			"folder": null,
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "笑傲江湖",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "count",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "pm.test(\"Response time is less than 1000ms\", function () {\n    pm.expect(pm.response.responseTime).to.be.below(1000);\n});\n\npm.test(\"Status code is 200\", function () {\n    pm.response.to.have.status(200);\n});\n\npm.test(\"Body matches string\", function () {\n    pm.expect(pm.response.text()).to.include(\"金庸\");\n});",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512459916512,
+			"name": "豆瓣搜索图书接口",
+			"description": "##六、借助Postman完成HTTP请求接口测试\r\n\r\n示例API：https://developers.douban.com/wiki/?title=book_v2#get_book\r\n\r\n![豆瓣搜索图书API](http://img.blog.csdn.net/20171127162236177?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZHV6aWxvbmdsb3Zl/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)",
+			"collectionId": "3ccd940c-0635-6199-b51e-0712c7462b08",
+			"responses": []
+		}
+	]
+}
