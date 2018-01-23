@@ -77,12 +77,11 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser?userid=2",
+					"raw": "http://{{domain}}/getuser?userid=2",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					],
@@ -121,12 +120,11 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser",
+					"raw": "http://{{domain}}/getuser",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					]
@@ -158,19 +156,18 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser?userid=-1",
+					"raw": "http://{{domain}}/getuser?userid=-1",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					],
 					"query": [
 						{
 							"key": "userid",
-							"value": "-11",
+							"value": "-1",
 							"equals": true
 						}
 					]
@@ -202,12 +199,11 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser?userid=admin",
+					"raw": "http://{{domain}}/getuser?userid=admin",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					],
@@ -255,12 +251,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/getuser",
+					"raw": "http://{{domain}}/getuser",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					]
@@ -302,12 +297,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/getuser",
+					"raw": "http://{{domain}}/getuser",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					]
@@ -339,12 +333,11 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser",
+					"raw": "http://{{domain}}/getuser",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					]
@@ -386,12 +379,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/getuser",
+					"raw": "http://{{domain}}/getuser",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					]
@@ -433,12 +425,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/getuser",
+					"raw": "http://{{domain}}/getuser",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					]
@@ -480,12 +471,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/getuser",
+					"raw": "http://{{domain}}/getuser",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser"
 					]
@@ -522,12 +512,11 @@
 				],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser2?userid=1",
+					"raw": "http://{{domain}}/getuser2?userid=1",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser2"
 					],
@@ -566,12 +555,11 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser2?userid=1",
+					"raw": "http://{{domain}}/getuser2?userid=1",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser2"
 					],
@@ -615,12 +603,11 @@
 				],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser2?userid=1",
+					"raw": "http://{{domain}}/getuser2?userid=1",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser2"
 					],
@@ -664,12 +651,11 @@
 				],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser2",
+					"raw": "http://{{domain}}/getuser2",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser2"
 					]
@@ -706,12 +692,11 @@
 				],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8081/getuser2?userid=2",
+					"raw": "http://{{domain}}/getuser2?userid=2",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getuser2"
 					],
@@ -753,12 +738,11 @@
 					"raw": "{\n\t\"userid\":1\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8081/getmoney",
+					"raw": "http://{{domain}}/getmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getmoney"
 					]
@@ -800,12 +784,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/getmoney",
+					"raw": "http://{{domain}}/getmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getmoney"
 					]
@@ -840,12 +823,11 @@
 					"raw": "{\n \"userid\":2\n}\n"
 				},
 				"url": {
-					"raw": "http://localhost:8081/getmoney",
+					"raw": "http://{{domain}}/getmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getmoney"
 					]
@@ -880,12 +862,11 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8081/getmoney",
+					"raw": "http://{{domain}}/getmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getmoney"
 					]
@@ -920,12 +901,11 @@
 					"raw": "{\n \"userid\":\"admin\"\n}\n"
 				},
 				"url": {
-					"raw": "http://localhost:8081/getmoney",
+					"raw": "http://{{domain}}/getmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getmoney"
 					]
@@ -958,12 +938,11 @@
 					"raw": "{\n \"userid\":\"admin\"\n}\n"
 				},
 				"url": {
-					"raw": "http://localhost:8081/getmoney?userid=1",
+					"raw": "http://{{domain}}/getmoney?userid=1",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"getmoney"
 					],
@@ -1033,12 +1012,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney",
+					"raw": "http://{{domain}}/setmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney"
 					]
@@ -1089,12 +1067,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney",
+					"raw": "http://{{domain}}/setmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney"
 					]
@@ -1157,12 +1134,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney",
+					"raw": "http://{{domain}}/setmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney"
 					]
@@ -1225,12 +1201,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney",
+					"raw": "http://{{domain}}/setmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney"
 					]
@@ -1293,12 +1268,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney",
+					"raw": "http://{{domain}}/setmoney",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney"
 					]
@@ -1359,12 +1333,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney?userid=1&money=200",
+					"raw": "http://{{domain}}/setmoney?userid=1&money=200",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney"
 					],
@@ -1432,12 +1405,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney2",
+					"raw": "http://{{domain}}/setmoney2",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney2"
 					]
@@ -1488,12 +1460,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney2",
+					"raw": "http://{{domain}}/setmoney2",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney2"
 					]
@@ -1549,12 +1520,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney2",
+					"raw": "http://{{domain}}/setmoney2",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney2"
 					]
@@ -1610,12 +1580,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney2",
+					"raw": "http://{{domain}}/setmoney2",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney2"
 					]
@@ -1671,12 +1640,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney2",
+					"raw": "http://{{domain}}/setmoney2",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney2"
 					]
@@ -1730,12 +1698,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/setmoney2?userid=1&money=900",
+					"raw": "http://{{domain}}/setmoney2?userid=1&money=900",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"setmoney2"
 					],
@@ -1789,12 +1756,11 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8081/uploadfile",
+					"raw": "http://{{domain}}/uploadfile",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"{{domain}}"
 					],
-					"port": "8081",
 					"path": [
 						"uploadfile"
 					]
